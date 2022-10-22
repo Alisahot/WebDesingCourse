@@ -1,10 +1,126 @@
-.round{
-    position: relative;
-    border-radius: 100px;
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.header{
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ display: flex;
+ justify-content: space-between;
+ align-content: flex-start;
+ flex-flow: row;
+ width: 1360px;
+ margin: 40px;
 }
-img{
-    width: 100%;
+.header_text{
+ display: flex;
+ flex-direction: column;
+ width: 460px;
+}
+.header_title{
+ font-size: 96px;
+ line-height: 92px;
+ letter-spacing: -0.04em;
+ width: 100%;
+ text-transform: uppercase;
+ margin:0;
+}
+.button{
+ font-size: 32px;
+ line-height: 96.02%;
+ letter-spacing: -0.04em;
+ width: 227px;
+ height: 55px;
+ border: 1px solid  black;
+ border-radius: 200px;
+ background-color:  white;
+ margin-top: 50px;
+ text-transform: uppercase;
+}
+.img_header{
+	 width: 863px;
+	 height: 476px;
+	 margin-top: 0;
+}
+.paragraph{
+ display: flex;
+ flex-direction: column;
+ width: 1015px;
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ margin-top: 60px;
+ margin-left: 40px;
+}
+.paragraph_title{
+ font-size: 40px;
+ line-height: 96.02%;
+ letter-spacing: -0.04em;
+ text-transform: uppercase;
+}
+.paragrapgh_text{
+ font-size: 24;
+ line-height: 29px;
+ letter-spacing: -0.04em;
+ margin-top: 38px;
+}
+.citata{
+ width: 694px;
+ margin: 0 auto;
+
+}
+.quote {
+	 width: 94%;
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 70px;
+   }
+   .blockquote {
+	 width: 694px;
+	 font-family: "Inter", sans-serif;
+	 font-style: normal;
+	 font-size: 32px;
+	 line-height: 96.02%;
+	 text-align: center;
+	 letter-spacing: -0.04em;
+   }
+.car_cards{
+	width: 94%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style-type: none;
+
+}
+.card{
+	width: 33%;
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	letter-spacing: -0,.04em;
+
+}
+
+.card_4{
+	margin-top: 127px;
+}
+
+.card_5{
+	margin-top: 127px;
+}
+.card_6{
+	margin-top: 127px;
+}
+ .card_img{
+	width: 33%;
+	object-fit: contain;
+
+ }
+.card_header{
+	line-height: 48px;
+	font-size: 40px;
+	margin-top: 22px;
+	margin-bottom: 0;
+}
+.card_text{
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 22px;
+	margin-bottom: 0;
 }
