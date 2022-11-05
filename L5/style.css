@@ -1,0 +1,14 @@
+.hi{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ser:hover{
+     background-color: rgb(20, 106, 9);
+}
+.ser{
+   
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
