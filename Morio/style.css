@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(81, 199, 187);
+}
+.block {
+    position: absolute;
+}
+.block_1 {
+    left: 30px;
+    top: 500px;
+}
+.block_2 {
+    left: 180px;
+    top: 500px;
+}
+.block_3 {
+    left: 330px;
+    top: 500px;
+}
+.block_4 {
+    left: 480px;
+    top: 500px;
+}
+.block_5 {
+    left: 630px;
+    top: 500px;
+}
+.block_6 {
+    left: 780px;
+    top: 500px;
+}
+.block_7 {
+    left: 930px;
+    top: 500px;
+}
+.block_8 {
+    left: 1080px;
+    top: 500px;
+}
+.block_9 {
+    left: 330px;
+    top: 350px;
+}
+.block_10 {
+    left: 780px;
+    top: 250px;
+}
+.block_11 {
+    left: 930px;
+    top: 250px;
+}
+.mario {
+    position: absolute;
+    width: 150px;
+    box-sizing: border-box;
+    top: 405px;
+    left: 50px;
+    animation: mario 5s linear infinite;
+
+}
+.cloud1_1{
+    position: absolute;
+    width: 500px;
+    box-sizing: border-box;
+    left:20px ;
+    top: 100px;
+}
+.cloud1_2{
+    position: absolute;
+    width: 550px;
+    box-sizing: border-box;
+    left:950px ;
+    top: 50px;
+}
+.cloud2_1{
+    position: absolute;
+    width: 500px;
+    box-sizing: border-box;
+    left:500px ;
+    top: 0,1px;
+}
+.lackyblock1{
+    position: absolute;
+    width: 80px;
+   height: 80px;
+    box-sizing: border-box;
+    left:450px;
+    top: 125px;
+}
+.lackyblock2{
+    position: absolute;
+    width: 80px;
+   height: 80px;
+    box-sizing: border-box;
+    left:970px;
+    top: 100px;
+}
+
+
+@keyframes mario{
+    20% {left: 305px; top: 405px;} 
+    25% {left: 315; top: 222px;}
+    31% {left: 400px; top:222px;}
+    33% {left: 400px; top: 230px;}
+    34% {left:400px; top:100px}
+    35%{left:400px; top:105px;}
+    36%{left:400px; top:120px;}
+    36%{left:400px; top:130px;}
+    37%{left:400px; top: 200px}
+    38% {left: 400px; top: 255px;}
+    38.6%{left: 450px; top: 255px}
+    39% {left:485px; top:255px;}
+    45% {left: 490px; top:405px;}
+    49% {left: 740px; top:405px;}
+    50% {left: 760px; top:155px;}
+    55%{left: 790px; top:155px;}
+    72% {left:940px; top:80px;}
+    73% {left:940px; top:80px;}
+    74% {left:940px; top:80px;}
+    75% {left: 1100px; top:155px;}
+    80% {left: 1105px; top: 405px;}
+    100% {left: 1205px; top: 405px;}
+}
