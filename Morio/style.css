@@ -63,13 +63,15 @@ body {
     box-sizing: border-box;
     left:20px ;
     top: 100px;
+    animation: cloud1_1 5s linear infinite;
 }
 .cloud1_2{
     position: absolute;
     width: 550px;
     box-sizing: border-box;
-    left:950px ;
+    left:850px ;
     top: 50px;
+    animation: cloud1_2 5s linear infinite;
 }
 .cloud2_1{
     position: absolute;
@@ -77,22 +79,29 @@ body {
     box-sizing: border-box;
     left:500px ;
     top: 0,1px;
+    animation: cloud2_1 5s linear infinite;
 }
 .lackyblock1{
     position: absolute;
     width: 80px;
-   height: 80px;
     box-sizing: border-box;
-    left:450px;
-    top: 125px;
+    left:445px;
+    top: 170px;
 }
 .lackyblock2{
     position: absolute;
     width: 80px;
    height: 80px;
     box-sizing: border-box;
-    left:970px;
+    left:985px;
     top: 100px;
+}
+.coin{
+    position: absolute;
+    width: 150px;
+    left:30px;
+    top:125px;
+    animation: coin 5s linear infinite;
 }
 
 
@@ -119,4 +128,24 @@ body {
     75% {left: 1100px; top:155px;}
     80% {left: 1105px; top: 405px;}
     100% {left: 1205px; top: 405px;}
+}
+@keyframes cloud1_1{
+    0% {left:20px;}
+    100%{left:800px;}
+}
+@keyframes cloud1_2{
+    0%{left: 850px;}
+    100%{left:1500px;}
+
+}
+@keyframes cloud2_1{
+    0%{left: 500px;}
+    100%{left:1100px}
+}
+@keyframes coin{
+    0%{opacity: 0%;}
+    31%{opacity: 0%; left:400px; top: 110px;}
+    38%{opacity: 100;left:400px; top:70px;}
+    45%{opacity: 0%;left:400px; top: 110px;}
+    100%{opacity: 0%;}
 }
